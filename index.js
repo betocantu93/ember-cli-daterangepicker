@@ -16,21 +16,7 @@ module.exports = {
     this.import('vendor/bootstrap-daterangepicker/daterangepicker.css');
   },
 
-  getDateRangePickerStylesPath() {
-    let nodeModulesPath = this.app.project.nodeModulesPath;
 
-    return path.join(nodeModulesPath, 'bootstrap-daterangepicker', 'daterangepicker.scss');
-
-  },
-
-  treeForStyles(){
-
-    return new Funnel(this.getDateRangePickerStylesPath(), {
-      destDir: 'ember-cli-daterangepicker'
-    });
-
-
-  },
 
   treeForVendor: function(vendorTree) {
     var trees = [];
