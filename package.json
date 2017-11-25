@@ -48,13 +48,5 @@
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/josemarluedke/ember-cli-daterangepicker.git"
-  },
-  "bugs": {
-    "url": "https://github.com/josemarluedke/ember-cli-daterangepicker/issues"
-  },
-  "homepage": "https://github.com/josemarluedke/ember-cli-daterangepicker"
+  "main": "index.js"
 }
